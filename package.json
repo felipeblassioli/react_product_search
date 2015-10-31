@@ -1,0 +1,42 @@
+{
+  "name": "react_product_search",
+  "version": "0.0.0",
+  "description": "Little react experiment to build a product search UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify -x react -x underscore -x reflux -o build/bundle.js -v -d src/app.js --s Bla",
+    "build-vendor": "browserify -r react -r underscore -r reflux > build/vendor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipeblassioli/react_product_search.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/felipeblassioli/react_product_search/issues"
+  },
+  "dependencies": {
+    "react": "~0.14.0",
+    "reflux": "~0.3.0",
+    "underscore": "~1.8.3",
+    "babel": "~5.8.29",
+    "browserify": "~12.0.1",
+    "watchify": "~3.5.0",
+    "reactify": "~1.1.1",
+    "envify": "~3.4.0",
+    "react-dom": "~0.14.1",
+    "bluebird": "~3.0.2"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "harmony": true
+        }
+      ],
+      "envify"
+    ]
+  }
+}

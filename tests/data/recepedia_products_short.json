@@ -1,0 +1,282 @@
+[
+    {
+        "_id": "562e986ba066471593e2d31f", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Cappuccino", 
+                "id": "ades-ades-cappuccino"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-cappuccino"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1014598-ades-cappuccino-1l.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-cappuccino", 
+        "name": "AdeS Cappuccino"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d320", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Cereais com Mel", 
+                "id": "ades-ades-cereais-com-mel"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-cereais-com-mel"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1014599-ades-cereais-com-mel-1l.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-cereais-com-mel", 
+        "name": "AdeS Cereais com Mel"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d321", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Original", 
+                "id": "ades-ades-original"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-original"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1006048-ades-original-1.5l-284x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-original", 
+        "name": "AdeS Original"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d322", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Original Frap\u00ea de Coco", 
+                "id": "ades-ades-original-frap\u00ea-de-coco"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-original-frap\u00ea-de-coco"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1006051-ades-coco-1l-284x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-original-frap\u00ea-de-coco", 
+        "name": "AdeS Original Frap\u00ea de Coco"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d323", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Original Shake Morango", 
+                "id": "ades-ades-original-shake-morango"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-original-shake-morango"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1006056-ades-shake-morango-1l-284x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-original-shake-morango", 
+        "name": "AdeS Original Shake Morango"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d324", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Vitamina de Banana", 
+                "id": "ades-ades-vitamina-de-banana"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-vitamina-de-banana"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1006050-ades-banana-1l-284x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-vitamina-de-banana", 
+        "name": "AdeS Vitamina de Banana"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d325", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Abacaxi", 
+                "id": "ades-ades-abacaxi"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-abacaxi"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1023099-ades-abacaxi-1l.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-abacaxi", 
+        "name": "AdeS Abacaxi"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d326", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Frutas Amarelas", 
+                "id": "ades-ades-frutas-amarelas"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-frutas-amarelas"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-918087-novo-ades-verao-frutas-amarelas-248x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-frutas-amarelas", 
+        "name": "AdeS Frutas Amarelas"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d327", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Laranja", 
+                "id": "ades-ades-laranja"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-laranja"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-1006046-Ades-laranja-1.5l-284x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-laranja", 
+        "name": "AdeS Laranja"
+    }, 
+    {
+        "_id": "562e986ca066471593e2d328", 
+        "backup_ingredient": "Leite de Soja", 
+        "tags_tokens": [
+            {
+                "category": "branded", 
+                "type": "token", 
+                "name": "AdeS AdeS Laranja com Manga", 
+                "id": "ades-ades-laranja-com-manga"
+            }, 
+            {
+                "category": "brand", 
+                "type": "token", 
+                "name": "AdeS"
+            }, 
+            {
+                "category": "product-id", 
+                "type": "token", 
+                "name": "ades-ades-laranja-com-manga"
+            }
+        ], 
+        "images": [
+            "http://backend.vtxprp.com.br/recepedia_produtos/static/1083-918086-novo-ades-verao-laranja-manga-248x511.png"
+        ], 
+        "branded": true, 
+        "id": "ades-ades-laranja-com-manga", 
+        "name": "AdeS Laranja com Manga"
+    }
+]

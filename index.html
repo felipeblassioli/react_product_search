@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Demo - Product Search UI</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/css/topcoat-mobile-dark.css" /> <meta name="viewport" content="width=device-width, initial-scale=1">"
+	</head>
+	<body>
+<style>
+	#main {
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	h1 {
+		color: #F0F1F1;
+	}
+	a {
+		color: #288EDF;
+	}
+	.topcoat-text-input {
+		width: 100%;
+		display: block;
+	}
+	li.hover {
+		background: #585858;
+	}
+	.topcoat-addme::before {
+		content: 'Add me: '
+	}
+	.topcoat-addme {
+		text-align: right;
+	}
+
+	* {
+		vertical-align: top;
+	}
+
+	.leftBox {
+		width: 50%;
+		display: inline-block;
+	}
+
+	.rightBox {
+		width: 50%;
+		display: inline-block;
+	}
+
+	.typeahead-selector {
+		position: absolute;
+		left: 0;
+		width: 10%;
+		display: inline-block; 
+	}
+
+	.ProductsView {
+		position: absolute;
+		display: inline-block; 
+		width: 35%;
+		left: 10%;
+	}
+
+	.ProductsView img {
+		height: 80px;
+	}
+
+	.SelectedProductsView {
+		width: 100%;
+		border: 1px solid red;
+	}
+
+</style>
+		<div id="App"></div>
+		<script src="build/vendor.js"></script>
+		<script src="build/bundle.js"></script>
+	</body>
+</html>
