@@ -69,8 +69,22 @@
 	}
 
 </style>
+		<button onclick="controlClear();">Clear</button>
 		<div id="App"></div>
 		<script src="build/vendor.js"></script>
 		<script src="build/bundle.js"></script>
+		<script>
+
+			var adapter = new PRPFrontend.Adapter();
+			adapter.init('App');
+
+			function controlClear(){
+				adapter.clear();
+				console.log('clear');
+			}
+			console.log('Hello World');
+
+			console.log(PRPFrontend);
+		</script>
 	</body>
 </html>

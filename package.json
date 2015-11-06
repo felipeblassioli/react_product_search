@@ -4,8 +4,8 @@
   "description": "Little react experiment to build a product search UI",
   "main": "index.js",
   "scripts": {
-    "start": "watchify -x react -x underscore -x reflux -o build/bundle.js -v -d src/app.js --s Bla",
-    "build-vendor": "browserify -r react -r underscore -r reflux > build/vendor.js"
+    "start": "watchify -x react -x bluebird -x underscore -x reflux -o build/bundle.js -v -d src/app.js --s PRPFrontend",
+    "build-vendor": "browserify -r react -r bluebird -r underscore -r reflux > build/vendor.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
     "reactify": "~1.1.1",
     "envify": "~3.4.0",
     "react-dom": "~0.14.1",
-    "bluebird": "~3.0.2"
+    "bluebird": "~3.0.2",
+    "react-typeahead": "felipeblassioli/react-typeahead",
+    "fuzzy": "~0.1.1"
   },
   "browserify": {
     "transform": [
