@@ -153,12 +153,7 @@ var ProductsStore = Reflux.createStore({
 });
 
 var CurrentJobStore = Reflux.createStore({
-	listenables: [ ControlActions, JobActions ],
-
-	onClearJob: function(){
-		console.log('onClearJob');
-		this.trigger({});
-	},
+	listenables: [ JobActions ],
 
 	onReceiveJob: function(job){
 		console.log('CurrentJobStore.onReceiveJob', job);
@@ -410,9 +405,15 @@ var ActionBar = React.createClass({
 });
 
 var ImagePreview = React.createClass({
-	mixins: [Reflux.connect(CurrentJobStore, "job")],
+	mixins: [
+		Reflux.connect(CurrentJobStore, "job"),
+		Reflux.listenTo(ControlActions.clear, "clear")
+	],
 	getInitialState: function(){
 		return { job: { img_url: null } };
+	},
+	clear: function(){
+		this.setState(this.getInitialState());
 	},
 	render: function(){
 		console.log("render ImagePreview", this.state);

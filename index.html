@@ -70,6 +70,7 @@
 
 </style>
 		<button onclick="controlClear();">Clear</button>
+		<button onclick="sendJob();">sendJob</button>
 		<div id="App"></div>
 		<script src="build/vendor.js"></script>
 		<script src="build/bundle.js"></script>
@@ -81,6 +82,10 @@
 			function controlClear(){
 				adapter.clear();
 				console.log('clear');
+			}
+
+			function sendJob(){
+				adapter.receiveJob({image: '45234dsar13', client: "recepedia", media: "image"});
 			}
 			console.log('Hello World');
 
